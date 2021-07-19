@@ -1,0 +1,46 @@
+.landing-page {
+    margin-top: 10%;
+}
+
+.landing-page__content {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing-page__box {
+    text-align: start;
+}
+
+.landing-page__box h3 span {
+    font-style: italic;
+}
+
+.email-field-container input {
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0 6px 0 0;
+    border-color: #457172;
+}
+
+.email-field-container button {
+    align-self: center;
+    height: fit-content;
+    padding: 8px;
+
+    background-color: #CF6A56;
+    border-radius: 5px;
+    border: none;
+    
+    outline: 0;
+
+    color: #F0F1EB;
+    font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.email-field-container button:hover {
+    cursor: pointer;
+    background-color: #67A4D3;
+}
